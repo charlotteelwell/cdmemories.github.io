@@ -9,7 +9,18 @@ a {
 	color:deeppink;
 	margin-top: 2vh;
 	margin-left: 3vh;
-	font-size: 6vh;
+	font-size: 6vh;	
+	animation: textcolor 5s infinite-alternate;
+}
+
+@keyframes textcolor {
+	0% {
+		margin-left: 20px;
+	}
+
+	100% {
+		margin-left: 400px;
+	}
 }
 
 .intro {
